@@ -1,0 +1,30 @@
+/* 1. โหลดฟอนต์จาก Google Fonts (เลือกอันใดอันหนึ่งหรือทั้งคู่) */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mali:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-neon-blue: #00f0ff;
+  /* 2. กำหนดฟอนต์หลักของระบบที่นี่ */
+  --font-display: "Itim", cursive;
+  --font-sans: "Itim", cursive; /* บังคับให้ Tailwind ใช้ฟอนต์นี้เป็นฟอนต์พื้นฐาน */
+}
+
+/* 3. บังคับใช้ฟอนต์กับ HTML และ Body */
+@layer base {
+  html, body {
+    font-family: "Itim", cursive;
+  }
+}
+
+/* --- ส่วนของ Cursor เดิมที่คุณตั้งค่าไว้ --- */
+body {
+  cursor: url('https://storage.googleapis.com/mtr-system/media-app/src/assets/images/cursor.png'), auto; 
+}
+
+button, 
+a, 
+.cursor-pointer,
+[role="button"] {
+  cursor: url('https://storage.googleapis.com/mtr-system/media-app/src/assets/images/pointer.png'), pointer;
+}
