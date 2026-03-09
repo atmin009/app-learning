@@ -6,7 +6,7 @@ function SocialFamilyPage({ isMuted, onVideoStateChange }) {
   const [isPlaying, setIsPlaying] = useState(true);
 
   // 👨‍👩‍👧‍👦 Path วิดีโอหลัก
-  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/ครอบครัว.mp4";
+  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/family.mp4";
 
   // 🎵 จัดการเสียง BGM
   useEffect(() => {

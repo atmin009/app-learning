@@ -6,7 +6,7 @@ function SocialReligionPage({ isMuted, onVideoStateChange }) {
   const [isPlaying, setIsPlaying] = useState(true);
 
   // ☸️ Path วิดีโอหลัก
-  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/ศาสนา.mp4";
+  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/religion.mp4";
 
   // 🎵 จัดการเสียง BGM
   useEffect(() => {

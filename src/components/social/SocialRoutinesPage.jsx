@@ -6,7 +6,7 @@ function SocialRoutinesPage({ isMuted, onVideoStateChange }) {
   const [isPlaying, setIsPlaying] = useState(true);
 
   // 🧼 Path วิดีโอหลัก
-  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/กิจวัตรประจำวัน.mp4";
+  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/routines.mp4";
 
   // 🎵 จัดการเสียง BGM
   useEffect(() => {

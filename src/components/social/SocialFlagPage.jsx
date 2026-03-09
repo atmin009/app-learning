@@ -6,7 +6,7 @@ function SocialFlagPage({ isMuted, onVideoStateChange }) {
   const [isPlaying, setIsPlaying] = useState(true);
 
   // 🇹🇭 Path วิดีโอหลัก
-  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/ธงชาติ.mp4";
+  const mainVideo = "https://storage.googleapis.com/mtr-system/media-app/public/videos/social/flag.mp4";
 
   // 🎵 จัดการเสียง BGM
   useEffect(() => {
